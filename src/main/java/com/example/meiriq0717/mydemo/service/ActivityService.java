@@ -12,7 +12,7 @@ import android.support.annotation.Nullable;
 public class ActivityService extends Service {
     private MyBinder myBinder;
     private String str = "BinderService";
-
+    private String myTestString="wahaha";
     @Override
     public IBinder onBind(Intent intent) {
         return myBinder;
