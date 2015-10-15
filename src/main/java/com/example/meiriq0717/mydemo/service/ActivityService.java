@@ -13,7 +13,6 @@ public class ActivityService extends Service {
     private MyBinder myBinder;
     private String str = "BinderService";
 
-    @Nullable
     @Override
     public IBinder onBind(Intent intent) {
         return myBinder;
